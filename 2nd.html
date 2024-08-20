@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap column </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+.container{
+    border: 5px solid black;
+}
+.row{
+    border: 2px solid red;
+}
+.col{
+    border:2px solid slateblue ;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="row row-cols-3" >
+            <!-- (automatically break between colums clas= row-cols-1,2,3,4,5......etc..,) -->
+            <div class="col">col1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo maiores quae quod laborum soluta? Enim debitis vero impedit reprehenderit beatae. Veritatis aliquid obcaecati ullam.</div>
+            <div class="col">col2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia autem sit obcaecati eaque cum doloremque quis sunt quo explicabo optio.</div>
+            <!-- <div class="w-100"></div>(Break between colums) -->
+            <div class="col">col3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cupiditate temporibus vero, eos facere eveniet minima ipsam veritatis corporis consectetur odit eius inventore aut harum voluptatum dicta totam quas! Officiis laborum quos corporis accusamus totam!</div>
+            <!-- <div class="w-100"></div> -->
+            <div class="col">col4</div>
+            <div class="col">col5</div>
+            <div class="col">col6</div>
+            <!-- <div class="w-100"></div> -->
+            <div class="col">col7</div>
+            <div class="col">col8</div>
+        </div>
+        <div class="row">col3</div>
+            <div class="row">col4</div>
+    </div>
+
+</body>
+</html>

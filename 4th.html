@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Columns </title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+</head>
+<style>
+    .container {
+        border: 0px solid gray;
+    }
+
+    .row {
+        border: 0px solid blueviolet;
+    }
+
+    .col,
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        border: 0px solid green;
+    }
+    body{
+        background-color: rgb(117, 116, 114);
+    }
+#header{
+background-color: aqua;
+padding: 10px 0 10px 10px;
+}
+#menu{
+    background-color: bisque;
+    padding: 3px 0px ;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+}
+#menu ul li{
+   display: inline-block;
+   margin: 15   px;
+}
+#content{
+    background-color: greenyellow;
+}
+#sidebar{
+    background-color: darkseagreen;
+}
+#footer{
+    background-color: antiquewhite;
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12" id="header">
+                <h1>Chaitanya</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">gallery</a></li>
+                    <li><a href="">products</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8" id="content">
+                <h2> Raut</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consectetur sit dolorem autem
+                    praesentium nemo possimus animi necessitatibus qui? Assumenda labore ipsa adipisci similique,
+                    mollitia, est hic tenetur minus neque et ipsum placeat ducimus quibusdam quaerat optio accusantium
+                    distinctio, sunt atque veritatis qui ea quis provident. Minus mollitia voluptatibus obcaecati
+                    ducimus? Praesentium dicta Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, voluptatibus sapiente officia nobis nemo esse autem fugit. Repudiandae ut nemo non dicta eos nisi necessitatibus ducimus totam ab architecto quidem quas perferendis cum dolores, quod, incidunt et, maiores dolorum cumque fuga obcaecati excepturi asperiores. Vitae, reprehenderit ad? Molestias consectetur rerum, facere odio dolore fugit recusandae, asperiores deleniti officia eum esse. iste consequuntur exercitationem vero similique ut beatae.</p>
+            </div>
+            <div class="col-md-4" id="sidebar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">gallery</a></li>
+                    <li><a href="">products</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="footer">
+            <div class="col-12">
+                @copyright 2022.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
